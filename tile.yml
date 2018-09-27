@@ -228,6 +228,7 @@ forms:
       type: string
       configurable: true
       optional: true
+
 - name: catalog_services_1
   label: Catalog Service 1
   description: Configure Catalog Service 1
