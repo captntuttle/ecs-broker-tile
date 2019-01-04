@@ -348,7 +348,7 @@ forms:
       - name: default_bucket_quota
         label: Default Bucket Quota (GB)
         type: integer
-        optional: true
+        default: -1
         configurable: true
         description: Default quota applied to all buckets created within this namespacedefault_bucket_quota. This only applies to namespace services
       - name: encrypted
@@ -586,7 +586,7 @@ forms:
       - name: default_bucket_quota
         label: Default Bucket Quota (GB)
         type: integer
-        optional: true
+        default: -1
         configurable: true
         description: Default quota applied to all buckets created within this namespacedefault_bucket_quota. This only applies to namespace services
       - name: encrypted
@@ -823,7 +823,7 @@ forms:
       - name: default_bucket_quota
         label: Default Bucket Quota (GB)
         type: integer
-        optional: true
+        default: -1
         configurable: true
         description: Default quota applied to all buckets created within this namespacedefault_bucket_quota. This only applies to namespace services
       - name: encrypted
@@ -1060,7 +1060,7 @@ forms:
       - name: default_bucket_quota
         label: Default Bucket Quota (GB)
         type: integer
-        optional: true
+        default: -1
         configurable: true
         description: Default quota applied to all buckets created within this namespacedefault_bucket_quota. This only applies to namespace services
       - name: encrypted
@@ -1297,7 +1297,7 @@ forms:
       - name: default_bucket_quota
         label: Default Bucket Quota (GB)
         type: integer
-        optional: true
+        default: -1
         configurable: true
         description: Default quota applied to all buckets created within this namespacedefault_bucket_quota. This only applies to namespace services
       - name: encrypted
