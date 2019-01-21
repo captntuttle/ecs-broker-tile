@@ -30,7 +30,7 @@ packages:
     if [ -n "$PREV_APP" ]; then $CF rename $PREV_APP ecs_broker_v1; fi
     if [ -n "$PREV_BROKER" ]; then $CF rename-service-broker $PREV_BROKER ecs_broker; fi
   manifest:
-    path: resources/ecs-cf-service-broker-1.1.0.jar
+    path: resources/ecs-cf-service-broker-2.0.0.jar
     buildpack: java_buildpack_offline
     memory: 1G
     env:
